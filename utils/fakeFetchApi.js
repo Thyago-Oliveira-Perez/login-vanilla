@@ -2,15 +2,15 @@ export default function fakeFetchApi(user) {
   const users = [
     {
       email: 'billgates@gmail.com',
-      password: 'sou-rico'
+      password: 'D0gu1nho!'
     },
     {
       email: 'adalovelace@gmail.com',
-      password: 'digdim-digdim'
+      password: 'Hotw33l$$'
     },
     {
       email: 'markzuckerberg@gmail.com',
-      password: 'vou-te-hackeei'
+      password: '@Loh@123'
     }
   ];
 
@@ -21,7 +21,6 @@ export default function fakeFetchApi(user) {
   for (let i = 0; i < users.length; i += 1) {
     if (users[i].email === email && users[i].password === password) {
       correctUser = true;
-      
       break;
     }
   }
